@@ -2,13 +2,12 @@ const express = require('express');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
 const methodOverride = require('method-override')
-const contactRoutes = require('./routes/contact-routes');
-const createPath = require('./helpers/create-path');
+// const contactRoutes = require('./routes/contact-routes');
+// const createPath = require('./helpers/create-path');
 const contactApiRoutes = require('./routes/api-contact-routes')
 
 const app = express();
 
-app.set('view engine', 'ejs');
 
 const PORT = 3000;
 const db = 'mongodb+srv://romagren:ZZMOGaTeFlnq8D0m@mycotactdatabase.odgu22v.mongodb.net/node-data-base?retryWrites=true&w=majority'

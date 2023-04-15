@@ -21,13 +21,14 @@
     "nodemon": "^2.0.7"
   },
   "dependencies": {
-    "ejs": "^3.1.6",
+    "ejs": "^3.1.9",
     "expres": "^0.0.5",
     "express": "^4.18.2",
     "method-override": "^3.0.0",
     "mongodb": "^5.2.0",
     "mongoose": "^7.0.3",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "view-engine": "^1.1.1"
   },
   "engines": {
     "node": "14.17.0"
