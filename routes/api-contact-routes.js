@@ -10,7 +10,7 @@ const {
 
 
 //Get All Contacts
-router.get('/`api/contacts`', getContacts);
+router.get('/api/contacts', getContacts);
 //get contact by id
 router.get('/api/contact/:id', getContact);
 //Add new contact

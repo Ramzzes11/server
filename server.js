@@ -30,7 +30,7 @@ app.use(express.static('styles'));
 
 app.use(methodOverride('_method'));
 
-app.use(contactRoutes)
+// app.use(contactRoutes)
 app.use(contactApiRoutes)
 
 app.get('/', (req, res) => {
