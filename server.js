@@ -1,17 +1,12 @@
 const express = require('express');
 const morgan = require('morgan');
-// const chalk = require('chalk');
 const mongoose = require('mongoose');
 const methodOverride = require('method-override')
 const contactRoutes = require('./routes/contact-routes');
 const createPath = require('./helpers/create-path');
 const contactApiRoutes = require('./routes/api-contact-routes')
-// const chalk = require('chalk');
 
 const app = express();
-
-// const erroeMSG = chalk.backgroundColorNames('whith').redBright
-// const successMSG = chalk.backgroundColorNames('green').white
 
 app.set('view engine', 'ejs');
 
